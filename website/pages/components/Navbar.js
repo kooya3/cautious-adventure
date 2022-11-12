@@ -8,7 +8,7 @@ import dribble from "../assets/dribble.png";
 
 const Navbar = () => {
   return (
-    <div className=" w-full flex justify-between items-center p-4 md:p-5 md:px-26">
+    <div className=" w-full flex justify-between items-center p-4 px-6 md:p-5 md:px-26">
       {/* Left */}
       <div className="space-x-12 flex items-center">
         <button className="font-bold sm:text-[19px] md:text-[22px]">works</button>
