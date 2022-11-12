@@ -15,7 +15,7 @@ const Navbar = () => {
         <button className="font-bold hidden sm:flex sm:text-[19px] md:text-[22px]">Contact</button>
       </div>
       {/* Middle */}
-      <div className="w-14 h-14 sm:w-17 sm:h-17 md:w-[4.4rem] md:h-[4.4rem]">
+      <div className="w-14 h-14 sm:w-17 sm:h-17 md:w-[4.4rem] md:h-[4.4rem] lg:w-[6rem] lg:h-[6rem]">
         <Image src={logo} />
       </div>
 
