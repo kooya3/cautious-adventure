@@ -10,4 +10,7 @@ module.exports = {
   },
   plugins: [
       ],
+      scale: {
+        '175': '1.75',
+      }
 }
