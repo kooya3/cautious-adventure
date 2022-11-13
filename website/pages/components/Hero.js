@@ -24,8 +24,8 @@ function Hero() {
         </div>              
       </div>
       {/* Middle */}
-      <div className="transform-gpu w-53 h-80 bg-red-400 overflow-hidden -mt-9 rounded-t-full rounded-b-full flex">
-        <Image src={Picture } className="object-cover" />
+      <div className="transform-gpu w-50 h-[29rem] bg-gray-300 overflow-hidden -mt-4 rounded-full flex">
+        <Image src={Picture } className="object-cover pt-14 " />
       </div>
       {/* Right */}
 </div>
