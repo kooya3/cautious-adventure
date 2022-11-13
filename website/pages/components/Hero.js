@@ -31,12 +31,20 @@ function Hero() {
       <div className="hidden sm:flex sm:flex-col text-right">
         <div className="">
           <p className="text-gray-400 text-[14px] pb-3">Years of <br />Experience </p>  
-          <p>3</p>     
+          <p className="text-[25px]">3</p>     
         </div>              
-        <div className="">
+        <div className="pt-10">
           <p className="text-gray-400 text-[14px] pb-3">Satisfaction <br />Clients </p>  
           <p className="text-[25px]">100%</p>     
-        </div>       
+        </div>  
+        <div className="pt-10">
+          <p className="text-gray-400 text-[14px] pb-3">Clients <br />Worldwide </p>  
+          <p className="text-[25px]">+<span className="pl-2">23</span></p>     
+        </div>      
+        <div className="pt-10">
+          <p className="text-gray-400 text-[14px] pb-3">Satisfaction <br />Clients </p>  
+          <p className="text-[25px]">100%</p>     
+        </div> 
       </div>
 </div>
     </div>
