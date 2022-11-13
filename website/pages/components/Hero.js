@@ -13,14 +13,14 @@ function Hero() {
         <p className="font-semibold"> Based in Kenya 🇰🇪</p>
 </div>
 </div>
-<div className="flex items-center justify-center pt-8 sm:justify-between">
+<div className="flex items-center justify-center pt-8 sm:justify-between mx-auto ">
         {/* Main */}
       {/* Left */}
       <div className="hidden sm:flex w-[10.5rem]">
         <div className="">
           <p className="text-gray-400 text-[14px] pb-3">Biography </p>  
           <p>Work for money and design for love!I'm Elyees, an UI/UX Interaction Designer based in Kenya</p>  
-          <p>I have been coding for 4+ years</p>   
+          <p>I have been coding for 2+ years</p>   
         </div>              
       </div>
       {/* Middle */}
@@ -28,11 +28,10 @@ function Hero() {
         <Image src={Picture } className="object-cover pt-16 " />
       </div>
       {/* Right */}
-      <div className="hidden sm:flex w-[10.5rem] text-right">
+      <div className="hidden sm:flex text-right">
         <div className="">
-          <p className="text-gray-400 text-[14px] pb-3">Biography </p>  
-          <p>Work for money and design for love!I'm Elyees, an UI/UX Interaction Designer based in Kenya</p>  
-          <p>I have been coding for 4+ years</p>   
+          <p className="text-gray-400 text-[14px] pb-3">Years of <br />Experience </p>  
+          <p>3</p>     
         </div>              
       </div>
 </div>
