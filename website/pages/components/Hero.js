@@ -28,11 +28,15 @@ function Hero() {
         <Image src={Picture } className="object-cover pt-16 " />
       </div>
       {/* Right */}
-      <div className="hidden sm:flex text-right">
+      <div className="hidden sm:flex sm:flex-col text-right">
         <div className="">
           <p className="text-gray-400 text-[14px] pb-3">Years of <br />Experience </p>  
           <p>3</p>     
         </div>              
+        <div className="">
+          <p className="text-gray-400 text-[14px] pb-3">Satisfaction <br />Clients </p>  
+          <p className="text-[25px]">100%</p>     
+        </div>       
       </div>
 </div>
     </div>
