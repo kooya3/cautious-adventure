@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from "../assets/logo.png"
+import logo from "../logo.png"
 import Image from 'next/image';
-import twitter from "../assets/twitter.png";
-import github from "../assets/github.png";
-import facebook from "../assets/facebook.png";
-import dribble from "../assets/dribble.png";
+import twitter from "../twitter.png";
+import github from "../github.png";
+import facebook from "../facebook.png";
+import dribble from "../dribble.png";
 
 const Navbar = () => {
   return (

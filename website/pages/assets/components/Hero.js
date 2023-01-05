@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Picture from "../assets/picture.png";
+import Picture from "../picture.png";
 
 function Hero() {
   return (

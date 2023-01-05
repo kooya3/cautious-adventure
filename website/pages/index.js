@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Navbar from './components/Navbar.js'
+import Navbar from './assets/components/Navbar'
 import Hero from './assets/components/Hero'
 
 export default function Home() {
