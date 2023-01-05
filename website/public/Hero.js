@@ -24,7 +24,7 @@ function Hero() {
         </div>              
       </div>
       {/* Middle */}
-      <div className="transform-gpu w-50 h-[27rem] bg-gray-300 overflow-hidden -mt-4 rounded-full flex sm:mt-4 mx-4">
+      <div className="transform-gpu w-[17rem] h-[25rem] bg-gray-300 overflow-hidden -mt-4 rounded-full flex sm:mt-4 mx-4">
         <Image src={Picture } className="object-cover pt-16 " />
       </div>
       {/* Right */}
@@ -42,8 +42,8 @@ function Hero() {
           <p className="text-[25px]">+<span className="pl-2">23</span></p>     
         </div>      
         <div className="pt-10">
-          <p className="text-gray-400 text-[14px] pb-3">Satisfaction <br />Clients </p>  
-          <p className="text-[25px]">100%</p>     
+          <p className="text-gray-400 text-[14px] pb-3">Projects<br />Done </p>  
+          <p className="text-[25px]">127</p>     
         </div> 
       </div>
 </div>
